@@ -1,0 +1,67 @@
+.port-photo{
+    margin-top: 70px;
+    text-align: center;
+    
+}
+.port-photo h1{
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #5f94ff, #0cdf10); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 25px ;
+}
+.my-work{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+    padding: 30px;
+}
+.my-work img {
+    height: 260px;
+    margin-top: 15px;
+}
+.my-work img:hover{
+    transform: scale(1.03);
+   
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .modal-content img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  

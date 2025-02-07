@@ -1,0 +1,97 @@
+.about{
+    margin-top: 100px;
+   position: relative;
+
+}
+.about-title h1{
+  margin-bottom: 30px;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(270deg, #5f94ff, #0cdf10); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+ .about-right img{
+  width: 250px;
+  height: 250;
+  margin-left: 20px;
+  border-radius: 15px;
+
+ }
+ .about-sections{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  
+ }  
+ .about-left{
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+ } 
+ .about-para{
+  font-size: 1.2rem;
+ }
+ .about-skills {
+  display: flex;
+  flex-direction: column;
+  }
+  .about-skill{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+  } 
+  .about-skill p{
+    cursor: pointer;
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .about-skill hr{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    height: 8px;
+    width: 50%;
+    border-radius: 12px;
+    background: linear-gradient(270deg,#5f94ff, #0cdf10);
+  } 
+
+  .about-skill:hover{
+    transform: scale(1.03);
+    transition: 0.31s;
+  }
+  .about-achievements{
+    cursor: pointer;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ .about-achievement{
+  text-align: center;
+ }
+  .about-achievement h1{
+    font-size: 2.5rem;
+    background: linear-gradient(270deg, #5f94ff, #0cdf10); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .about-achievement h1:hover{
+    transform: scale(1.3);
+  }
+  .about-achievements hr{
+    border: none;
+    outline: none;
+    height: 100px;
+    width: 0.5%;
+    border-radius: 10px;
+    background: linear-gradient(270deg,#5f94ff, #0cdf10);
+  }
+  .about-achievement p{
+    font-size: 1.3rem;
+  }
+

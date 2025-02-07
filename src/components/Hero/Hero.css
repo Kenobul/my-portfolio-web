@@ -1,0 +1,57 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero img{
+    margin-top: 30px;
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+}
+.hero-description{
+    margin-top: 18px;
+    border: 2px white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-description span{
+    font-size: 2.5rem;
+    margin-left: 120px;
+    background: linear-gradient(to right, #5f94ff, #0cdf10); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-description p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+.more-hero-info{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+.more-hero-info .more-connect{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    background:linear-gradient(to left,rgb(0, 102, 255),rgb(9, 231, 9));
+
+}
+.more-hero-info .resume {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px;
+    border:1px solid white;
+}
+
+.more-hero-info .more-connect:hover{
+    transform: scale(1.2);
+}
+.more-hero-info .resume:hover{
+    transform: scale(1.2);
+}
